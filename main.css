@@ -1,0 +1,95 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: aliceblue;
+}
+.heading-container {
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  /* Added styles for login button */
+
+  
+  .heading {
+    font-weight: bold;
+    color: #333; /* Dark color */
+  }
+  
+  .highlight {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 0 10px; /* Add padding to create some space around the text */
+  }
+  
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(30% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #333; /* Added color */
+    margin-bottom: 5px; /* Added margin */
+  }
+  
+  .card-source {
+    font-style: italic;
+    color: #666; /* Added color */
+  }
+  
+  .card-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Added border-radius */
+  }
+  
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition */
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+  }
+  
+  #search-container {
+    margin-bottom: 20px;
+  }
+  
+  #article-search, #source-filter {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  #article-search::placeholder, #source-filter::placeholder {
+    color: #060404;
+  }
+  
+  #article-search:focus, #source-filter:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }

@@ -1,0 +1,188 @@
+
+
+
+  
+.heading-container {
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  /* Added styles for login button */
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #ffe83dd7;
+    color: #020202;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border-radius 0.3s ease, background-color 0.3s ease; /* Added transition */
+  }
+  
+  .login-button:hover {
+    background-color: yellow; /* Change background color to yellow on hover */
+    border-radius: 10px; /* Increase border radius on hover */
+  }
+  
+  .heading {
+    font-weight: bold;
+    color: #333; /* Dark color */
+  }
+  
+  .highlight {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 0 10px; /* Add padding to create some space around the text */
+  }
+  
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(30% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #333; /* Added color */
+    margin-bottom: 5px; /* Added margin */
+  }
+  
+  .card-source {
+    font-style: italic;
+    color: #666; /* Added color */
+  }
+  
+  .card-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Added border-radius */
+  }
+  
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition */
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+  }
+  
+
+/* CSS for login page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffcca3, #f7e4c6);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
+  }
+  
+  @keyframes gradientBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group button {
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    cursor: pointer;
+  }
+
+  .form-group button:hover{
+    background-color: #9d5012;
+  }
+  
+  .options {
+    margin-top: 10px;
+  }
+
+
+  
+  .options a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    
+    
+  }
+  
+  .separator {
+    margin: 0 10px;
+   
+  }
+  
+
+  
+
+
+
+  
