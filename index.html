@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <div class="login-container">
     <div class="login-form">
       <h2>Login</h2>
-      <form action="./main.html" method="post" onsubmit="return validateLogin()">
+      <form action="#" method="post" onsubmit="return validateLogin()">
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" id="username" name="username" required>
@@ -35,14 +35,16 @@
       // Check if the username and password match the predefined values
       if (username === 'user' && password === '1234') {
         // Redirect to main.html
-        return true;
+        window.location.href = "main.html";
+        return false; // Prevent form submission
       } else {
         // Display an error message or handle invalid login
         alert('User ID: user & Password: 1234');
-        return false;
+        return false; // Prevent form submission
       }
     }
   </script>
 </body>
 </html>
+
 
